@@ -1,0 +1,41 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Custom scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e8e2da;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c9b798;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b8a687;
+}
+
+/* Letter Field Styles */
+.letter-field {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.lf-letter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 14px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.95);
+  will-change: transform, opacity;
+  user-select: none;
+}
