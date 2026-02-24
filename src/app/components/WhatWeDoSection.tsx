@@ -25,9 +25,9 @@ export function WhatWeDoSection() {
           initial={{ opacity: 0, x: -30 }}
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-          className="flex items-center justify-center px-8 lg:px-16 py-24 lg:py-32 relative"
+          className="flex flex-col justify-between px-8 lg:px-16 py-24 lg:py-32 relative h-full"
         >
-          <div className="max-w-lg">
+          <div className="max-w-lg w-full">
             <motion.div
               initial={{ scaleX: 0 }}
               animate={isInView ? { scaleX: 1 } : {}}
@@ -35,15 +35,21 @@ export function WhatWeDoSection() {
               className="w-12 h-[1px] bg-primary mb-8 origin-left"
             />
 
-            <TextReveal className="text-4xl md:text-5xl lg:text-6xl text-foreground mb-10 leading-tight">
+            <motion.h2 
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="text-4xl md:text-5xl lg:text-6xl mb-10 leading-tight font-light" 
+              style={{ color: '#f9f7f4', fontFamily: 'Cormorant Garamond, serif' }}
+            >
               Strategic Marketing Excellence
-            </TextReveal>
+            </motion.h2>
 
             <div className="space-y-6 mb-12">
-              <p className="text-base md:text-lg text-foreground/70 font-light leading-relaxed">
+              <p className="text-base md:text-lg font-light leading-relaxed" style={{ color: '#e5dfd6' }}>
                 Hello Tangi is a full-service digital marketing agency that transforms brands through strategic storytelling, data-driven campaigns, and creative innovation.
               </p>
-              <p className="text-base md:text-lg text-foreground/70 font-light leading-relaxed">
+              <p className="text-base md:text-lg font-light leading-relaxed" style={{ color: '#e5dfd6' }}>
                 We partner with startups, D2C brands, and enterprises to build meaningful connections with their audiences and drive measurable business growth.
               </p>
             </div>
@@ -56,6 +62,22 @@ export function WhatWeDoSection() {
               <ArrowRight className="w-4 h-4" />
             </MagneticButton>
           </div>
+
+          {/* Hello Tangi Branding - Left Bottom */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.8, delay: 1 }}
+            className="border-t pt-8 max-w-lg w-full"
+            style={{ borderColor: '#ddd6cb' }}
+          >
+            <h3 className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: 'Cormorant Garamond, serif', color: '#f9f7f4' }}>
+              Hello Tangi
+            </h3>
+            <p className="text-sm md:text-base font-light" style={{ color: '#d9d1c6' }}>
+              Strategic Marketing Excellence
+            </p>
+          </motion.div>
         </motion.div>
 
         {/* Right Image */}
@@ -66,16 +88,6 @@ export function WhatWeDoSection() {
           className="relative h-[60vh] lg:h-full"
         >
           <DesignTextAnimation />
-          
-          {/* Hello Tangi Branding Overlay */}
-          <div className="absolute bottom-8 left-8 z-10">
-            <h3 className="text-3xl md:text-4xl text-white font-light mb-2" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
-              Hello Tangi
-            </h3>
-            <p className="text-sm md:text-base text-white/80 font-light">
-              Strategic Marketing Excellence
-            </p>
-          </div>
           
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
         </motion.div>
