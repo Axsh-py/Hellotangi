@@ -65,7 +65,7 @@ export function HowWeWorkSection() {
                 className="absolute top-0 left-0 w-[70%] h-[60%] overflow-hidden"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1709281847802-9aef10b6d4bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwbWFya2V0aW5nJTIwc3RyYXRlZ3klMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzcwMjYyNTYxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  src="https://images.unsplash.com/photo-1709281847802-9aef10b6d4bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwbWFya2V0aW5nJTIwc3RyYXRlZ3klMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzcwMjYyNTYxfDA&ixlib=rb-4.1.0&q=80&w=1080"
                   alt="Digital Marketing Strategy"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
@@ -79,7 +79,7 @@ export function HowWeWorkSection() {
                 className="absolute top-[10%] right-0 w-[45%] h-[35%] overflow-hidden border-8 border-white shadow-2xl"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1634671495197-fb9ec3230ef5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFuZCUyMGRlc2lnbiUyMGNyZWF0aXZlJTIwcHJvY2Vzc3xlbnwxfHx8fDE3NzAzNjU0NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  src="https://images.unsplash.com/photo-1634671495197-fb9ec3230ef5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFuZCUyMGRlc2lnbiUyMGNyZWF0aXZlJTIwcHJvY2Vzc3xlbnwxfHx8fDE3NzAzNjU0NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
                   alt="Brand Design Process"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
@@ -93,7 +93,7 @@ export function HowWeWorkSection() {
                 className="absolute bottom-0 right-[5%] w-[55%] h-[45%] overflow-hidden border-8 border-white shadow-2xl"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1758873271902-a63ecd5b5235?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXJrZXRpbmclMjB0ZWFtJTIwY29sbGFib3JhdGlvbiUyMG1vZGVybnxlbnwxfHx8fDE3NzAzNjU0NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  src="https://images.unsplash.com/photo-1758873271902-a63ecd5b5235?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXJrZXRpbmclMjB0ZWFtJTIwY29sbGFib3JhdGlvbiUyMG1vZGVybnxlbnwxfHx8fDE3NzAzNjU0NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
                   alt="Marketing Team Collaboration"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
