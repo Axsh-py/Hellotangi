@@ -3,10 +3,12 @@ import path from 'path'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  // GitHub Pages project site path: https://axsh-py.github.io/Hellotangi/
+  base: command === 'build' ? '/Hellotangi/' : '/',
   plugins: [
     // The React and Tailwind plugins are both required for Make, even if
-    // Tailwind is not being actively used – do not remove them
+    // Tailwind is not being actively used - do not remove them
     react(),
     tailwindcss(),
   ],
@@ -16,4 +18,4 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-})
+}))
